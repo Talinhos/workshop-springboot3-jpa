@@ -1,25 +1,11 @@
 package com.educandoweb.course.entities;
 
 import java.io.Serializable;
-import java.sql.SQLException;
-
-import javax.sql.DataSource;
-
-import org.hibernate.boot.model.relational.Database;
-import org.springframework.context.annotation.Bean;
-import org.springframework.jdbc.datasource.ConnectionHandle;
-import org.springframework.orm.jpa.JpaDialect;
-import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
-import org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect;
-import org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.PersistenceException;
 import jakarta.persistence.Table;
 
 @Entity
